@@ -1,0 +1,72 @@
+answer = input('What Dice?: ')
+
+# D20
+if answer == "D20":
+        import random 
+        random_num = random.randint(1, 20)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+# D12
+if answer == "D12":
+        import random
+        random_num = random.randint(1, 12)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+
+# D10
+if answer == "D10":
+        import random
+        random_num = random.randint(1,10)
+        print (random_num)
+        print ('Run again to roll other Dice')  
+
+# D8  
+if answer == "D8":
+        import random 
+        random_num = random.randint(1, 8)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+# D6
+if answer == "D6":
+        import random 
+        random_num = random.randint(1, 6)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+# D4
+if answer == "D4":
+        import random 
+        random_num = random.randint(1, 4)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+# D100
+if answer == "D100":
+        import random 
+        random_num = random.randint(1, 100)
+        print (random_num)
+        print ('Run again to roll other Dice')
+
+# Modifiers
+answer = input('Modifiers?: ')
+if answer == 'Yes':
+        answer = input('Which?: ')
+        if answer == '1':
+            print (random_num + 1)
+        if answer == '2':
+            print (random_num + 2) 
+        if answer == '3':
+            print (random_num + 3) 
+        if answer == '4':
+            print (random_num + 4)      
+        if answer == '5':
+            print (random_num + 5)  
+    
+
+
+
+                
+    
