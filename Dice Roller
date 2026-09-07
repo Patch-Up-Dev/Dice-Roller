@@ -56,13 +56,13 @@ if answer == 'Yes':
         answer = input('Which?: ')
         if answer == '1':
             print (random_num + 1)
-        if answer == '2':
+        elif answer == '2':
             print (random_num + 2) 
-        if answer == '3':
+        elif answer == '3':
             print (random_num + 3) 
-        if answer == '4':
+        elif answer == '4':
             print (random_num + 4)      
-        if answer == '5':
+        elif answer == '5':
             print (random_num + 5)  
     
 
