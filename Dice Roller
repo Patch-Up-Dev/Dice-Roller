@@ -63,7 +63,10 @@ if answer == 'Yes':
         elif answer == '4':
             print (random_num + 4)      
         elif answer == '5':
-            print (random_num + 5)  
+            print (random_num + 5) 
+while answer == 'No':
+        break
+
     
 
 
